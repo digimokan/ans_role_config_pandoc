@@ -1,0 +1,7 @@
+- name: "Install the 'hs-pandoc' application package"
+  ansible.builtin.package:
+    name: hs-pandoc
+    state: present
+  become: true
+  become_user: root
+

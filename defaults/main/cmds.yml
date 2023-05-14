@@ -1,0 +1,5 @@
+# CLI Ref: https://pandoc.org/MANUAL.html
+
+# pandoc cmd to execute to convert a file to markdown
+pandoc_conv_to_markdown_cmd: 'pandoc --standalone --to=markdown'
+
