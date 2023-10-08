@@ -54,7 +54,7 @@ Install and configure the pandoc file conversion utility.
        - name: "Install and configure the pandoc file conversion utility"
          ansible.builtin.include_role:
            name: ans_role_config_pandoc
-           public: yes
+           public: true
    ```
 
 ## Role Options
